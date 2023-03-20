@@ -1,38 +1,22 @@
-## Challenge repo ##
+## Challenge repo
 
-# Tech stack
-- [x] Back-end
-- [ ] Front-end
-- [ ] Docker
-- [ ] Database related
-- [x] Testing
-- [x] Maven
-- [ ] NPM
-- [x] Java related
-- [ ] JavaScript/TypeScript/React related
-- [ ] Shell scripting
+This repo contains three challenges. Three questions. These challenges were
+given to me on an interview process. I was able to solve only two of them
+in time. But later I could solve the third first.
 
-# Experimental stuff
-- [ ] Clojure
-- [ ] Wildfly
-- [ ] IndexedDb
-- [ ] PHP
-- [ ] Slim Framework
-- [ ] KnockoutJS
-- [ ] ServiceWorker
-- [ ] Authentication
+### 1st Challenge
 
-### Challenge 1 ###
-
+Given a text string, create a method to check if the opening and closing
+brackets are matching.
 - Link: https://www.hackerrank.com/challenges/balanced-brackets/problem
 - Signature: `boolean validBracketSequence(String sequence)`
 
-### Challenge 2 ###
+### 2nd Challenge
 
 - Link: https://wachino.github.io/codefights/codefights-arcade/codefights-arcade-thecore/59_stringsConstruction/README.html
 - Signature: `int stringsConstruction(String a, String b)`
 
-### Challenge 3 ###
+### 3rd Challenge
 
-- Link: Sorry. Didn't find one.
+- Link: Sorry. Didn't find first.
 - Signature: `double closestPointPair(int[][] p)`

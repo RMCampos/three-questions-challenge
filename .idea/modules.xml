@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bairesdev-challenge.iml" filepath="$PROJECT_DIR$/bairesdev-challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bdev.iml" filepath="$PROJECT_DIR$/bdev.iml" />
     </modules>
   </component>
 </project>
