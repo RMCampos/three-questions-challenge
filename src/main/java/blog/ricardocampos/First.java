@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-public class First {
+class First {
 
   /**
    * Check if a given string sequence have valid opening and closing brackets.
