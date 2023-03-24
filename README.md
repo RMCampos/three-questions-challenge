@@ -1,8 +1,8 @@
 ## Challenge repo
 
-This repo contains three challenges. Three questions. These challenges were
-given to me on an interview process. I was able to solve only two of them
-in time. But later I could solve the third first.
+This repo contains challenges and algorithms study. These challenges were
+given to me on an interview process. The algorithms I decided to study
+by myself.
 
 ### 1st Challenge
 
@@ -25,3 +25,12 @@ the string `b`? Each letter can be used only once and in one string only.
 
 - Link: Sorry. Didn't find first.
 - Signature: `double closestPointPair(int[][] p)`
+
+### Binary Search
+
+Given an integer array and a value, implement a function that search for that value
+using a binary tree algorithm.
+
+- Link: https://www.geeksforgeeks.org/binary-search/
+- Signature: `int find(int[] arr, int x)`
+- Implementation: [BinarySearch.java](src/main/java/blog/ricardocampos/BinarySearch.java)
