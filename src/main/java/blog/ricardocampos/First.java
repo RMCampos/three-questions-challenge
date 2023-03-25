@@ -38,7 +38,7 @@ class First {
 
       final char current = letters[key];
       final char matching = letters[len - key - 1];
-      final char rightOne = charValidMap.get(current);
+      final char rightOne = charValidMap.getOrDefault(current, ' ');
 
       // Debug
       // String template = "key[%d], current[%s], matching[%s], rightOne[%s]%n";

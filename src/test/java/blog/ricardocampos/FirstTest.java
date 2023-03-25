@@ -1,26 +1,27 @@
 package blog.ricardocampos;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-public class FirstTest {
+class FirstTest {
 
   @Test
-  public void validBracketSequencesTest() {
-    assertTrue(First.validBracketSequence("{}"));
-    assertTrue(First.validBracketSequence("[]"));
-    assertTrue(First.validBracketSequence("()"));
-    assertTrue(First.validBracketSequence("()[]{}"));
-    assertTrue(First.validBracketSequence("{[]}"));
-    assertTrue(First.validBracketSequence("[{{{([{}])}}}]"));
+  @DisplayName("validBracketSequencesTest")
+  void validBracketSequencesTest() {
+    Assertions.assertTrue(First.validBracketSequence("{}"));
+    Assertions.assertTrue(First.validBracketSequence("[]"));
+    Assertions.assertTrue(First.validBracketSequence("()"));
+    Assertions.assertTrue(First.validBracketSequence("()[]{}"));
+    Assertions.assertTrue(First.validBracketSequence("{[]}"));
+    Assertions.assertTrue(First.validBracketSequence("[{{{([{}])}}}]"));
   }
 
   @Test
-  public void invalidBracketSequencesTest() {
-    assertFalse(First.validBracketSequence("]"));
-    assertFalse(First.validBracketSequence("[)"));
-    assertFalse(First.validBracketSequence("[{{{([{])}}}]"));
+  @DisplayName("invalidBracketSequencesTest")
+  void invalidBracketSequencesTest() {
+    Assertions.assertFalse(First.validBracketSequence("]"));
+    Assertions.assertFalse(First.validBracketSequence("[)"));
+    Assertions.assertFalse(First.validBracketSequence("[{{{([{])}}}]"));
   }
 }
