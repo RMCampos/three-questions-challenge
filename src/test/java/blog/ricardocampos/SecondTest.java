@@ -1,19 +1,22 @@
 package blog.ricardocampos;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-public class SecondTest {
+class SecondTest {
 
   @Test
-  public void successTest() {
-    Assert.assertEquals(1, Second.stringsConstruction("ab", "abcbcb"));
-    Assert.assertEquals(2, Second.stringsConstruction("abc", "abccba"));
+  @DisplayName("successTest")
+  void successTest() {
+    Assertions.assertEquals(1, Second.stringsConstruction("ab", "abcbcb"));
+    Assertions.assertEquals(2, Second.stringsConstruction("abc", "abccba"));
   }
 
   @Test
-  public void failTest() {
-    Assert.assertEquals(0, Second.stringsConstruction("ab", "cdadrcb"));
-    Assert.assertEquals(0, Second.stringsConstruction("abc", "abafdcca"));
+  @DisplayName("failTest")
+  void failTest() {
+    Assertions.assertEquals(0, Second.stringsConstruction("ab", "cdadrcb"));
+    Assertions.assertEquals(0, Second.stringsConstruction("abc", "abafdcca"));
   }
 }
