@@ -12,6 +12,7 @@ public class Main {
     // Binary Search
     BinarySearch.find(new int[]{}, 0);
     // Bubble Sort
+    BubbleSort.sortArray(new int[]{5,1,4,2,8});
     // Quick Sort
   }
 

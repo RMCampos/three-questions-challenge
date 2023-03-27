@@ -25,6 +25,7 @@ the string `b`? Each letter can be used only once and in one string only.
 
 - Link: Sorry. Didn't find first.
 - Signature: `double closestPointPair(int[][] p)`
+- Implementation: [Third.java](src/main/java/blog/ricardocampos/Third.java)
 
 ### Binary Search
 
@@ -34,3 +35,13 @@ using a binary tree algorithm.
 - Link: https://www.geeksforgeeks.org/binary-search/
 - Signature: `int find(int[] arr, int x)`
 - Implementation: [BinarySearch.java](src/main/java/blog/ricardocampos/BinarySearch.java)
+
+### Bubble Sort
+
+Given an unsorted array of integer, sort them using bubble sort method.
+
+- Link: https://www.geeksforgeeks.org/bubble-sort/
+- Signature: `void sortArray(int[] arr)`
+- Implementation: [BubbleSort.java](src/main/java/blog/ricardocampos/BubbleSort.java)
+
+### Quick Sort
