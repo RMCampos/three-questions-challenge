@@ -38,10 +38,17 @@ using a binary tree algorithm.
 
 ### Bubble Sort
 
-Given an unsorted array of integer, sort them using bubble sort method.
+Given an unsorted array of integer, sort it using bubble sort method.
 
 - Link: https://www.geeksforgeeks.org/bubble-sort/
 - Signature: `void sortArray(int[] arr)`
 - Implementation: [BubbleSort.java](src/main/java/blog/ricardocampos/BubbleSort.java)
 
 ### Quick Sort
+
+Given an unsorted array of integers, sort it using quick sort method.
+
+- Link: https://www.geeksforgeeks.org/quick-sort/
+- Signature: `here...`
+- Implementation: [QuickSort.java](src/main/java/blog/ricardocampos/QuickSort.java)
+
